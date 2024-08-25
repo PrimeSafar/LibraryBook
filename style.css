@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Sofia&display=swap');
+
+
+body,
+html {
+    margin: 0 auto;
+}
+
+:root {
+    --backGround: #3F2305;
+    --text-color: #F2EAD3;
+    --bacGroundDarkMode: #110901;
+    --text-colorDarkMode: #F5F5F5;
+}
+
+.container {
+    display: flex;
+    background-color: #F5F5F5;
+    height: 100%;
+    width: 100%;
+}
+
+.side {
+    width: 25%;
+    text-align: center;
+    background-color: var(--backGround);
+}
+
+h1 {
+    color: var(--text-color);
+    font-family: "Sofia", cursive;
+    font-size: 3rem;
+    margin-bottom: 90px;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: var(--backGround);
+    color: var(--text-color);
+    border: none;
+    font-size: xx-large;
+    font-family: "Cormorant", serif;
+    border-radius: 12px;
+    width: 250px;
+    border-bottom: 1px solid var(--text-color);
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #2F1704;
+}
+
+.About {
+    padding: 10px 20px;
+    background-color: #3F2305;
+    color: var(--text-color);
+    border: none;
+    font-size: xx-large;
+    font-family: "Cormorant", serif;
+    border-radius: 12px;
+    width: 250px;
+    border-bottom: 1px solid #F2EAD3;
+    font-weight: 600;
+}
+
+.About:hover {
+    background-color: #2F1704;
+}
+
+.Contact {
+    margin-top: 10px;
+    margin-bottom: 60px;
+    padding: 10px 20px;
+    background-color: #3F2305;
+    color: #F2EAD3;
+    border: none;
+    font-size: xx-large;
+    font-family: "Cormorant", serif;
+    border-radius: 12px;
+    width: 250px;
+    border-bottom: 1px solid #F2EAD3;
+    font-weight: 600;
+}
+
+.Contact:hover {
+    background-color: #2F1704;
+}
+
+.light {
+    margin-top: 100px;
+    padding: 10px 20px;
+    background-color: #3F2305;
+    color: #F2EAD3;
+    border: none;
+    font-size: xx-large;
+    font-family: "Cormorant", serif;
+    border-radius: 12px;
+    width: 250px;
+    border-bottom: 1px solid #F2EAD3;
+    font-weight: 600;
+}
+
+.light:hover {
+    background-color: #2F1704;
+}
+
+.dark {
+    margin-bottom: 100px;
+    padding: 10px 20px;
+    background-color: #3F2305;
+    color: #F2EAD3;
+    border: none;
+    font-size: xx-large;
+    font-family: "Cormorant", serif;
+    border-radius: 12px;
+    width: 250px;
+    border-bottom: 1px solid #F2EAD3;
+    font-weight: 600;
+}
+
+.dark:hover {
+    background-color: #2F1704;
+}
+
+.Help {
+    padding: 10px 20px;
+    background-color: #3F2305;
+    color: #F2EAD3;
+    border: none;
+    font-size: xx-large;
+    font-family: "Cormorant", serif;
+    border-radius: 12px;
+    width: 250px;
+    border-bottom: 1px solid #F2EAD3;
+    font-weight: 600;
+}
+
+
+/* MAin Page  */
+.main {
+    background-color: #F5F5F5;
+    width: 75%;
+}
+
+dialog {
+    background-color: #DFD7BF;
+    border-radius: 12px;
+    font-family: "Cormorant", serif;
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+
+label {
+    font-size: 1.3rem;
+    color: #3F2305;
+    font-family: "Cormorant", serif;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #3F2305;
+    font-family: "Sofia", cursive;
+    font-weight: 600;
+}
+
+.BtnAddBook {
+    font-family: "Sofia", cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text-color);
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+.BtnAddBook:hover {
+    background-color: #2F1704;
+    color: #F2EAD3;
+}
+
+.close {
+    font-family: "Sofia", cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: #F2EAD3;
+    margin-left: 10%;
+    width: 250px;
+}
+
+.pAboutMe,
+.HelpPara {
+    font-size: 1.5rem;
+    color: #3F2305;
+    font-family: "Cormorant", serif;
+    font-weight: 600;
+}
+
+.h2AboutMe {
+    margin-left: 4%;
+}
+
+.closeAboutMe {
+    margin-left: 4%;
+}
+
+.closePleaseFill {
+    margin-left: 10%;
+}
+
+.GitHub:hover,
+.InstaGram:hover,
+.FaceBook:hover {
+    background-color: #F2EAD3;
+    color: #3F2305;
+}
+
+.layoutPage {
+    font-size: 1.5rem;
+    background-color: #F2EAD3;
+    border: 1px solid #110901;
+    color: #3F2305;
+    font-family: "Cormorant", serif;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 10px;
+    width: 200px;
+    margin-top: 10px;
+    height: 200px;
+    margin-left: 1%;
+    margin-right: 4px
+}
+
+.ShowBookMain {
+    margin-left: 1%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.BookName,
+.BookAuthor,
+.BookPages,
+.removeBook,
+.readBook,
+.unreadBook {
+    font-size: 1.5rem;
+    color: #3F2305;
+    font-family: "Cormorant", serif;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.BookInfo {
+    font-family: "Sofia", cursive;
+}
+
+.JsP {
+    font-family: "Cormorant", serif;
+    text-align: left;
+
+}
+
+.ChecK {
+    display: flex;
+    color: #3F2305;
+    font-family: "Cormorant", serif;
+    font-weight: 600;
+}
+
+#Number,
+#author,
+#title {
+    padding: 10px;
+    border-radius: 6px;
+    width: 300px;
+    font-family: "Cormorant", serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #3F2305;
+    background-color: #F5F5F5;
+    border: none;
+}
+
+.firstBook {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.PBook1,
+.PBook3 {
+    font-size: 10px;
+}
+
+.Book1 {
+    height: 150px;
+    width: 150px;
+    padding-left: 10%;
+}
+
+.FirstBook1,
+.Book2,
+.Book3,
+.Book4 {
+    font-size: 1.5rem;
+    background-color: #F2EAD3;
+    border: 1px solid #110901;
+    color: #3F2305;
+    font-family: "Cormorant", serif;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 10px;
+    width: 200px;
+    margin-top: 10px;
+    height: 200px;
+}
+
+.book-card {
+    font-size: 1.5rem;
+    background-color: #F2EAD3;
+    border: 1px solid #110901;
+    color: #3F2305;
+    font-family: "Cormorant", serif;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 10px;
+    width: 200px;
+    margin-top: 8px;
+    height: 210px;
+    margin-left: 2.2%;
+    margin-right: 2px;
+}
+
+.delete-button,
+.read-button {
+    border-radius: 6px;
+    height: 35px;
+    width: 79px;
+    font-family: "Cormorant", serif;
+    font-size: 11px;
+    margin: 3%;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    background-color: white;
+    border: none;
+}
+
+.read-button {
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: aliceblue;
+}
+
+.BookTitle {
+    font-size: x-large;
+    text-align: center;
+
+
+}
+
+
+/* footer */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #DFD7BF;
+    width: 100%;
+    height: 45px;
+}
+
+p {
+    text-align: center;
+    margin: 10px;
+    font-size: 1.3rem;
+    color: #3F2305;
+    font-family: "Sofia", cursive;
+}
+
+/* footer */

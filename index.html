@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="side">
+        <h1>Library Books</h1>
+        <button class="addBOOk">Add Book</button>
+        <button class="light">Light Mode</button>
+        <button class="dark">Dark Mode</button>
+        <button class="About">About</button>
+        <button class="Help">Help</button>
+        <button class="Contact">Contact</button>
+      </div>
+
+      <dialog id="dialog">
+        <h2>Add Book</h2>
+        <form id="addBookForm">
+          <div class="title">
+            <label for="title">Title:</label>
+          </div>
+          <input type="text" id="title" required />
+
+          <div class="athor">
+            <label for="author">Author:</label>
+          </div>
+          <input type="text" id="author" required />
+
+          <div class="page">
+            <label for="number">Number:</label>
+          </div>
+          <input type="number" id="Number" required /><br />
+
+          <button type="submit" value="default" class="BtnAddBook">
+            Add Book
+          </button>
+        </form>
+        <button class="close" autofocus value="cancel" formmethod="dialog">
+          Close
+        </button>
+      </dialog>
+
+      <dialog class="AboutMe">
+        <h2 class="h2AboutMe">About The Project</h2>
+        <p class="pAboutMe">
+          This is a simple library project created by Safar Attallah. This
+          project uses HTML, CSS, and JavaScript to create a responsive and
+          interactive web page.
+        </p>
+        <button class="closeAboutMe">Close</button>
+      </dialog>
+
+      <dialog class="DiaHelp">
+        <h2>Help</h2>
+        <p class="HelpPara">
+          To add a book, click on 'Add Book' button and fill out the form. To
+          view all books , The main Page Auto Add the books.
+        </p>
+        <button class="closeHelp">Close</button>
+      </dialog>
+
+      <dialog class="ContactMe">
+        <h2>Contact Me</h2>
+        <button
+          class="GitHub"
+          onclick="document.location='https://github.com/PrimeSafar'"
+        >
+          GitHub
+        </button>
+        <br />
+        <button
+          class="InstaGram"
+          onclick="document.location='https://www.instagram.com/s0u.x?igsh=ZHhscm1jenk4bmFm'"
+        >
+          Instagram
+        </button>
+        <br />
+        <button
+          class="FaceBook"
+          onclick="document.location='https://www.facebook.com/sfr.attallah?mibextid=ZbWKwL'"
+        >
+          FaceBook
+        </button>
+        <br />
+
+        <button class="closeContactMe">Close</button>
+      </dialog>
+
+      <dialog class="PleaseFill">
+        <h2>Please Fill All Fields</h2>
+        <button class="closePleaseFill">Close</button>
+      </dialog>
+
+      <div class="main">
+        <div class="ShowBookMain">
+          <div class="firstBook">
+            <div class="FirstBook1">
+              <img
+                class="Book1"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc29-1t4Tyj0XycjqNgWINITZqDkGmrV5XCg&s"
+                alt=""
+              />
+              <p class="PBook1">Who to think like a programer</p>
+            </div>
+
+            <div class="Book2">
+              <img
+                class="Book1"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRZ3XyIOw14b5dXsUO3zwr9MWf9__wZLIz5NYqyl7ilFmvM5J-hPLxbtX9UkKUWzjZ5o8&usqp=CAU"
+                alt=""
+              />
+              <p class="PBook1">The 7 Habits of Highly Effective People</p>
+            </div>
+
+            <div class="Book3">
+              <img
+                class="Book1"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpzZT417HrWSXsvqQ59mZItkmubTTWSgRU7bT8IFXp8JJT4WBydAQ4QkMMPbDOvt97WJY&usqp=CAU"
+                alt=""
+              />
+              <p class="PBook1">The Pragmatic Programmer</p>
+            </div>
+
+            <div class="Book4">
+              <img
+                class="Book1"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNjKfg9qakCluLqVdhJTwKPP0OOeRbEUCYGQ&s"
+                alt=""
+              />
+              <p class="PBook1">Clean Code In JavaScript</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p class="footerText">All rights reserved by Safar Attallah &copy;</p>
+      </div>
+    </div>
+  </body>
+</html>
